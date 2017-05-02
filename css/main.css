@@ -1,0 +1,18 @@
+body {
+  background-color: #458ca6;
+}
+
+.catch-phrase {
+  color: white;
+}
+
+button {
+  color: black;
+  background-color: #c4d733;
+  display: block;
+  margin: auto;
+}
+
+footer {
+  color: white;
+}
