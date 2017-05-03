@@ -9,26 +9,32 @@
 </head>
 
 <body>
-  <div class="row">
-    <div class="catch-phrase col-xs-5">
-      <h1>Accédez directement au plein-texte PDF sur la plateforme ISTEX.</h1>
-      <p>L'extension ISTEX analyse l'ensemble des pages que vous visitez à la recherche d'identifiants documentaires (DOI, PMID...) et ajoute un lien vers la plateforme ISTEX si cette ressource y est disponible.</p>
-      <details open>L'accès à ces ressources est limité aux ayants-droits ISTEX, c'est-à-dire les personnels de l'Enseignement Supérieur et de la Recherche.</details>
-      <button type="button" class="btn btn-lg">Ajouter l'extension à votre navigateur</button>
+  <div class="container">
+    <div class="row">
+      <div class="catch-phrase col-xs-offset-1 col-xs-4">
+        <h1>Accédez directement au plein-texte PDF sur la plateforme ISTEX.
+<div class="small">L'extension ISTEX analyse l'ensemble des pages que vous visitez à la recherche d'identifiants documentaires (DOI, PMID...) et ajoute un lien vers la plateforme ISTEX si cette ressource y est disponible.</div>
+        </h1>
+        <details open>L'accès à ces ressources est limité aux ayants-droits ISTEX, c'est-à-dire les personnels de l'Enseignement Supérieur et de la Recherche.</details>
+        <button id="addingToBrowser" type="button" class="btn btn-lg">Ajouter l'extension à votre navigateur</button>
+      </div>
+      <div class="col-xs-6">
+        <img class="capture" src="img/capture4.png" alt="screenshot">
+      </div>
     </div>
-    <div class="col-xs-7">
-      <img src="img/capture4.png" alt="screenshot">
-    </div>
+    <footer>
+      <div class="row">
+        <div class="col-xs-offset-2 col-xs-2"><a href="https://github.com/istex/istex-web-extension">Github</a></div>
+        <div class="col-xs-4">Propulsé par la Team ISTEX-API</div>
+        <div class="col-xs-2"><a href="mailto:api-users@listes.istex.fr">Email</a></div>
+      </div>
+    </footer>
+    <script type="text/javascript" src="https://content-delivery.istex.fr/web-header/main.js"></script>
+    <script type="text/javascript" src="js/vendor/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/vendor/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/vendor/bowser.min.js"></script>
+    <script type="text/javascript" src="js/detect.js"></script>
   </div>
-  <script type="text/javascript" src="//content-delivery.istex.fr/web-header/main.js"></script>
-  <script type="text/javascript" src="js/vendor/bootstrap.min.js"></script>
-  <script type="text/javascript" src="js/vendor/bowser.min.js"></script>
 </body>
-<footer>
-  <div class="col-xs-offset-2 col-xs-2">Github</div>
-  <div class="col-xs-4">Made with
-    <3 by ISTEX Team</div>
-      <div class="col-xs-2">Email</div>
-</footer>
 
 </html>
