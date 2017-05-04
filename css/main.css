@@ -1,10 +1,15 @@
 body {
-/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#008bb2+19,6fcde8+50,00575b+100 */
-background: #008bb2; /* Old browsers */
-background: -moz-linear-gradient(-45deg, #008bb2 19%, #6fcde8 50%, #00575b 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(-45deg, #008bb2 19%,#6fcde8 50%,#00575b 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(135deg, #008bb2 19%,#6fcde8 50%,#00575b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008bb2', endColorstr='#00575b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#008bb2+19,6fcde8+50,00575b+100 */
+  background: #008bb2;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #008bb2 19%, #6fcde8 50%, #00575b 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #008bb2 19%, #6fcde8 50%, #00575b 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #008bb2 19%, #6fcde8 50%, #00575b 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#008bb2', endColorstr='#00575b', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
   height: 100%;
 }
 
@@ -29,15 +34,6 @@ h1 .small {
   height: auto;
 }
 
-button {
-  color: black;
-  background-color: #c4d733;
-  display: block;
-  margin: auto;
-  margin-top: 1em;
-  width: 100%;
-}
-
 footer {
   color: white;
   font-size: large;
@@ -46,4 +42,13 @@ footer {
 
 a {
   color: white;
+}
+
+#addingToBrowser {
+  color: black;
+  background-color: #c4d733;
+  display: block;
+  margin: auto;
+  margin-top: 1em;
+  width: 100%;
 }
