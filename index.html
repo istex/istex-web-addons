@@ -5,7 +5,6 @@
   <meta charset="utf-8">
   <title>Addons ISTEX pour Firefox et Chrome</title>
   <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/fonjnfcanlbgnjgfhiocggldmpnhdhjg">
-<!--   <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/apdfllckaahabafndbhieahigkjlhalf"> -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
@@ -18,7 +17,9 @@
 <div class="small">L'extension ISTEX analyse l'ensemble des pages que vous visitez à la recherche d'identifiants documentaires (DOI, PMID...) et ajoute un lien vers la plateforme ISTEX si cette ressource y est disponible.</div>
         </h1>
         <details open>L'accès à ces ressources est limité aux ayants-droits ISTEX, c'est-à-dire les personnels de l'Enseignement Supérieur et de la Recherche.</details>
-        <button id="addingToBrowser" type="button" class="btn btn-lg">Ajouter l'extension à votre navigateur</button>
+        <div id="tooltip-wrapper">
+          <button id="addingToBrowser" type="button" class="btn btn-lg">Ajouter l'extension à votre navigateur</button>
+        </div>
       </div>
       <div class="col-xs-6">
         <img class="capture" src="img/capture4.png" alt="screenshot">
