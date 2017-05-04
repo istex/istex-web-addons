@@ -11,12 +11,12 @@ if (bowser.chrome || bowser.chromium) {
       title: 'L\'extension est déjà installée sur votre navigateur. Vous pouvez la retrouver sur l\'adresse chrome://extensions ou dans Menu, Plus d\'outils puis Extensions',
       placement: 'bottom'
     });
-    $('#addingToBrowser').prop("disabled", true);
+    $('#addingToBrowser').attr("disabled", true);
   } else {
     $('#addingToBrowser').click(function() {
       chrome.webstore.install(undefined, function() {
         $('#addingToBrowser').text('Extension bien ajoutée !');
-        $('#addingToBrowser').prop("disabled", true);
+        $('#addingToBrowser').attr("disabled", true);
       }, function(msg) {
         console.log('Error :' + msg);
       });
@@ -32,7 +32,7 @@ if (bowser.chrome || bowser.chromium) {
       title: 'Votre version du navigateur est trop ancienne. Veuillez mettre votre navigateur à jour (minimum en version 49) pour pouvoir bénéficier de l\'extension.',
       placement: 'bottom'
     });
-    $('#addingToBrowser').prop("disabled", true);
+    $('#addingToBrowser').attr("disabled", true);
   }
 } else {
   // Not supported
@@ -41,5 +41,5 @@ if (bowser.chrome || bowser.chromium) {
     title: 'Votre navigateur n\'est pas supporté pour le moment. Seuls Chrome et Firefox sont disponibles. Versions Safari et Edge à venir.',
     placement: 'bottom'
   });
-  $('#addingToBrowser').prop("disabled", true);
+  $('#addingToBrowser').attr("disabled", true);
 }
