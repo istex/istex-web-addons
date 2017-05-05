@@ -1,0 +1,10 @@
+{
+  "addons": {
+    "istexwebextensionforreal@inist.fr": {
+      "updates": [{
+        "version": "1.2.3",
+        "update_link": "https://addons.istex.fr/download/istex-1.2.3-an+fx.xpi"
+      }]
+    }
+  }
+}
