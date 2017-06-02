@@ -4,6 +4,9 @@
       "updates": [{
         "version": "1.2.3",
         "update_link": "https://addons.istex.fr/download/istex-1.2.3-an+fx.xpi"
+      }, {
+        "version": "1.2.4",
+        "update_link": "https://addons.istex.fr/download/istex-1.2.4-an+fx.xpi"
       }]
     }
   }
