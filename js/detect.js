@@ -1,6 +1,6 @@
 "use strict";
 
-var firefoxVersion = '1.2.5';
+var firefoxVersion = '1.2.6';
 var firefoxLink = 'download/istex-' + firefoxVersion + '-an+fx.xpi';
 
 if (bowser.chrome || bowser.chromium) {
