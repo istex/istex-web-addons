@@ -11,9 +11,12 @@
         "version": "1.2.5",
         "update_link": "https://addons.istex.fr/download/istex-1.2.5-an+fx.xpi"
       }, {
-          "version": "1.2.6",
-          "update_link": "https://addons.istex.fr/download/istex-1.2.6-an+fx.xpi"
-        }]
+        "version": "1.2.6",
+        "update_link": "https://addons.istex.fr/download/istex-1.2.6-an+fx.xpi"
+      }, {
+        "version": "1.2.7",
+        "update_link": "https://addons.istex.fr/download/istex-1.2.7-an+fx.xpi"
+      }]
     }
   }
 }
