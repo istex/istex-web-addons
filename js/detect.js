@@ -2,10 +2,11 @@
 
 var firefoxVersion = '1.3.0';
 var firefoxLink = 'download/istex-' + firefoxVersion + '-an+fx.xpi';
+const docUrl = 'https://doc.istex.fr/users/usage/button/';
 
 if (bowser.chrome || bowser.chromium) {
   $('#addingToBrowser').text('Ajouter l\'extension à Chrome');
-  $('#docUsers').attr('href', 'https://doc.istex.fr/users/navigateur/#chrome');
+  $('#docUsers').attr('href', docUrl + '#chrome');
   if (chrome.app.isInstalled) {
     $('#addingToBrowser').text('Extension déjà ajoutée !');
     $('#tooltip-wrapper').tooltip({
@@ -26,7 +27,7 @@ if (bowser.chrome || bowser.chromium) {
 } else if (bowser.firefox) {
   if (bowser.check({ firefox: "49" })) {
     $('#addingToBrowser').text('Ajouter l\'extension à Firefox');
-    $('#docUsers').attr('href', 'https://doc.istex.fr/users/navigateur/#firefox');
+    $('#docUsers').attr('href', docUrl + '#firefox');
     $('#addingToBrowser').attr('href', firefoxLink);
   } else {
     $('#addingToBrowser').text('Version du navigateur ancienne.');
