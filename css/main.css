@@ -1,15 +1,5 @@
 body {
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#008bb2+19,6fcde8+50,00575b+100 */
-  background: #008bb2;
-  /* Old browsers */
-  background: -moz-linear-gradient(-45deg, #008bb2 19%, #6fcde8 50%, #00575b 100%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(-45deg, #008bb2 19%, #6fcde8 50%, #00575b 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(135deg, #008bb2 19%, #6fcde8 50%, #00575b 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#008bb2', endColorstr='#00575b', GradientType=1);
-  /* IE6-9 fallback on horizontal gradient */
+  background: url(https://data.istex.fr/img/BG_ISTEX_LIGHT_DESKTOP.jpg) center repeat;
   height: 100%;
 }
 
@@ -18,13 +8,11 @@ html {
 }
 
 h1 .small {
-  color: white;
   margin-top: 1em;
   margin-bottom: 1em;
 }
 
 .catch-phrase {
-  color: white;
   margin-top: 10%;
   margin-right: 3%;
 }
@@ -35,13 +23,11 @@ h1 .small {
 }
 
 footer {
-  color: white;
   font-size: large;
   margin-top: 3%;
 }
 
 a {
-  color: white;
   text-decoration: underline;
 }
 
