@@ -1,6 +1,6 @@
 "use strict";
 
-var firefoxVersion = '1.3.0';
+var firefoxVersion = '1.3.1';
 var firefoxLink = 'download/istex-' + firefoxVersion + '-an+fx.xpi';
 const docUrl = 'https://doc.istex.fr/users/usage/button/';
 

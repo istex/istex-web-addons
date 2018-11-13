@@ -19,6 +19,9 @@
       }, {
         "version": "1.3.0",
         "update_link": "https://addons.istex.fr/download/istex-1.3.0-an+fx.xpi"
+      }, {
+        "version": "1.3.1",
+        "update_link": "https://addons.istex.fr/download/istex-1.3.0-an+fx.xpi"
       }]
     }
   }
