@@ -7,23 +7,8 @@ const docUrl = 'https://doc.istex.fr/users/usage/button/';
 if (bowser.chrome || bowser.chromium) {
   $('#addingToBrowser').text('Ajouter l\'extension à Chrome');
   $('#docUsers').attr('href', docUrl + '#chrome');
-  if (chrome.app.isInstalled) {
-    $('#addingToBrowser').text('Extension déjà ajoutée !');
-    $('#tooltip-wrapper').tooltip({
-      title: 'L\'extension est déjà installée sur votre navigateur. Vous pouvez la retrouver sur l\'adresse chrome://extensions ou dans Menu, Plus d\'outils puis Extensions',
-      placement: 'bottom'
-    });
-    $('#addingToBrowser').attr("disabled", true);
-  } else {
-    $('#addingToBrowser').click(function() {
-      chrome.webstore.install(undefined, function() {
-        $('#addingToBrowser').text('Extension bien ajoutée !');
-        $('#addingToBrowser').attr("disabled", true);
-      }, function(msg) {
-        console.log('Error :' + msg);
-      });
-    });
-  };
+  $('#addingToBrowser').attr('href','https://chrome.google.com/webstore/detail/istex/fonjnfcanlbgnjgfhiocggldmpnhdhjg?hl=fr');
+  $('#addingToBrowser').attr('title','Installer l\'extension depuis le Chrome Web Store');
 } else if (bowser.firefox) {
   if (bowser.check({ firefox: "49" })) {
     $('#addingToBrowser').text('Ajouter l\'extension à Firefox');
