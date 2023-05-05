@@ -12,6 +12,10 @@ h1 .small {
   margin-bottom: 1em;
 }
 
+.row div {
+  font-size: large;
+}
+
 .catch-phrase {
   margin-top: 10%;
   margin-right: 3%;
